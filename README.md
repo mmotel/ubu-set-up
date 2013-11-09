@@ -1,6 +1,6 @@
-#ubu-set-up
+#*ubu-set-up*
 
-##Instalcje
+##Instalacje
 
 ###Podstawowe
 
@@ -12,4 +12,4 @@
 
 ###Jape
 
-###Aliasy
+##Aliasy
