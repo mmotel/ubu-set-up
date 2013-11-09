@@ -134,8 +134,6 @@ alias 'v'='vim'
 alias 'm'='mongo'
 alias 'n'='node'
 
-alias 'sigma'='ssh mmotel@sigma.inf.ug.edu.pl'
-
 alias 'gitp'='git push origin master'
 alias 'gita'='git add'
 alias 'gitc'='git commit -m'

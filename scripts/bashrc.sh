@@ -13,8 +13,6 @@ echo "alias 'v'='vim'" >> ~/.bashrc
 echo "alias 'm'='mongo'" >> ~/.bashrc
 echo "alias 'n'='node'" >> ~/.bashrc
 echo "" >> ~/.bashrc
-echo "alias 'sigma'='ssh mmotel@sigma.inf.ug.edu.pl'" >> ~/.bashrc
-echo "" >> ~/.bashrc
 echo "alias 'gitp'='git push origin master'" >> ~/.bashrc
 echo "alias 'gita'='git add'" >> ~/.bashrc
 echo "alias 'gitc'='git commit -m'" >> ~/.bashrc
