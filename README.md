@@ -121,8 +121,6 @@ python agent.py >> [log_directory]/agent.log 2>1 &
 
 ##.bashrc
 
-Skrypt: [tutaj]()
-
 ```sh
 #path modification
 
@@ -147,3 +145,5 @@ alias 'hgp'='hg push'
 alias 'hga'='hg add'
 alias 'hgc'='hg commit -m'
 ```
+
+Skrypt: [tutaj](./scripts/bashrc.sh)
