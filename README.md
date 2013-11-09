@@ -43,7 +43,7 @@ Skrypt: [tutaj](./scripts/basics.sh)
 
 ###Java Runtime Enviroment
 
-[Ubuntu-pomoc](http://www.ubuntu-pomoc.org/ubuntu-12-04-instalacja-oracle-java-runtime-jre-7/)
+Źródło: [Ubuntu-pomoc](http://www.ubuntu-pomoc.org/ubuntu-12-04-instalacja-oracle-java-runtime-jre-7/)
 
 ```sh
 sudo add-apt-repository ppa:webupd8team/java
@@ -55,7 +55,7 @@ Skrypt: [tutaj](./scripts/java.sh)
 
 ###Node.JS
 
-[Joyent@github](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager#ubuntu-mint-elementary-os)
+Źródło: [Joyent@github](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager#ubuntu-mint-elementary-os)
 
 ```sh
 sudo apt-get update
@@ -75,7 +75,7 @@ Skrypt: [tutaj](./scripts/node.sh)
 
 ###MongoDB
 
-[MongoDB docs](http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/)
+Źródło: [MongoDB docs](http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/)
 
 ```sh
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
@@ -94,7 +94,7 @@ Skrypt: [tutaj](./scripts/mongo.sh)
 
 ###MongoDB Managment Service Agent
 
-[MMS tutorial](http://mms.mongodb.com/help/monitoring/tutorial/#tutorial-install-mms-agent)
+Źródło: [MMS tutorial](http://mms.mongodb.com/help/monitoring/tutorial/#tutorial-install-mms-agent)
 
 ```sh
 sudo apt-get install python-setuptools 
