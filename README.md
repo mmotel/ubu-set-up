@@ -41,7 +41,7 @@ Skrypt: [tutaj](./scripts/basics.sh)
 
 `*` przed uruchomieniem skryptu należy ustawić swój login oraz ares e-mail
 
-###Java Runtime Enviroment
+###Java Runtime Environment
 
 Źródło: [Ubuntu-pomoc](http://www.ubuntu-pomoc.org/ubuntu-12-04-instalacja-oracle-java-runtime-jre-7/)
 
