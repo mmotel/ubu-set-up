@@ -30,4 +30,24 @@ Vim, Git, Mercurial, Xsensors
 
 [Jape homepage](http://www.cs.ox.ac.uk/people/bernard.sufrin/jape.html)
 
-##Aliasy
+##.bashrc
+
+```sh
+#path modification
+
+PATH=$PATH:.
+
+#my aliases
+
+alias 'c'='clear'
+alias 'sigma'='ssh mmotel@sigma.inf.ug.edu.pl'
+alias 'l'='ls -l'
+alias 'gitp'='git push origin master'
+alias 'gita'='git add'
+alias 'gitc'='git commit -m'
+alias 'gits'='git status'
+alias 'hgp'='hg push'
+alias 'hga'='hg add'
+alias 'hgc'='hg commit -m'
+alias 'v'='vim'
+```
