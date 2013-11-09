@@ -1,5 +1,6 @@
 #.bashrc: path & aliases
 
+echo "" >> ~/.bashrc
 echo "#path modification" >> ~/.bashrc
 echo "" >> ~/.bashrc
 echo "PATH=$PATH:." >> ~/.bashrc
@@ -22,3 +23,4 @@ echo "" >> ~/.bashrc
 echo "alias 'hgp'='hg push'" >> ~/.bashrc
 echo "alias 'hga'='hg add'" >> ~/.bashrc
 echo "alias 'hgc'='hg commit -m'" >> ~/.bashrc
+echo "" >> ~/.bashrc
