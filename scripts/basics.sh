@@ -10,8 +10,8 @@ echo 'set nu' > ~/.vimrc
 #git
 
 sudo-apt-get install git
-git config --global user.name "mmotel"
-git config --global user.email "mateuszmotel@gmail.com"
+git config --global user.name "user-name"
+git config --global user.email "user-name@mail"
 
 #mercurial
 
