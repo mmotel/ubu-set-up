@@ -65,6 +65,12 @@ sudo apt-get update
 sudo apt-get install nodejs
 ```
 
+Dodatkowo instalujemy narzędzie [JSHint](http://www.jshint.com/):
+
+```sh
+sudo npm install jshint -g
+```
+
 Test: uruchamiamy powłokę Node-a:
 
 ```sh
