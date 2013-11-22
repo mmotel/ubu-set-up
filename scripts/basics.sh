@@ -20,3 +20,7 @@ sudo apt-get install mercurial
 #xsensors
 
 sudo apt-get install xsensors
+
+#guake terminal
+
+sudo apt-get install guake

@@ -37,6 +37,12 @@ Xsensors
 sudo apt-get install xsensors
 ```
 
+Guake terminal
+
+```sh
+sudo apt-get install guake
+```
+
 Skrypt: [tutaj](./scripts/basics.sh)
 
 `*` przed uruchomieniem skryptu należy ustawić swój login oraz ares e-mail
