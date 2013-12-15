@@ -166,6 +166,12 @@ sudo service elasticsearch stop
 sudo service elasticsearch start
 ```
 
+Test: wchodzimy na stronę wtyczki Elasticsearch-Head
+
+```sh
+xdg-open http://localhost:9200/_plugin/head/
+```
+
 ###Sublime Text 3
 
 [Sublime Text 3 download page](http://www.sublimetext.com/3)
