@@ -123,6 +123,49 @@ Następnie pobieramy agenta, rozpakowujemy i uruchamiamy:
 python agent.py >> [log_directory]/agent.log 2>1 &
 ```
 
+###Elasticsearch
+
+Źródło: [wingdspur@github gist](https://gist.github.com/wingdspur/2026107)
+
+Instalujemy Open JDK 7:
+
+```sh
+sudo apt-get update
+sudo apt-get install openjdk-7-jre-headless -y
+```
+
+Następnie pobieramy i isntalujemy Elasticsearch:
+
+```sh
+wget https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-0.90.7.deb
+sudo dpkg -i elasticsearch-0.90.7.deb
+```
+
+Konfigurujemy klaster oraz węzeł Elasticsearch'a.
+
+```sh
+sudo vim /etc/elasticsearch/elasticsearch.yml
+```
+
+Odkomentowyjemy linie oraz ustawiamy nazwy klastra i węzła:
+
+```yml
+(32)  cluster.name: yourESname
+
+(40)  node.name: "yourNodeName"
+
+(87)  node.max_local_storage_nodes: 1
+
+(319) discovery.zen.ping.multicast.enabled: false
+```
+
+Uruchamiamy skonfigurowanego Elasticsearch'a:
+
+```sh
+sudo service elasticsearch stop
+sudo service elasticsearch start
+```
+
 ###Sublime Text 3
 
 [Sublime Text 3 download page](http://www.sublimetext.com/3)
