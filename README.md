@@ -164,6 +164,8 @@ Odkomentowyjemy linie oraz ustawiamy nazwy klastra i węzła:
 
 (87)  node.max_local_storage_nodes: 1
 
+(105) index.number_of_shards: 1
+
 (319) discovery.zen.ping.multicast.enabled: false
 ```
 
