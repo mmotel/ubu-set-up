@@ -134,11 +134,17 @@ sudo apt-get update
 sudo apt-get install openjdk-7-jre-headless -y
 ```
 
-Następnie pobieramy i isntalujemy Elasticsearch:
+Pobieramy i instalujemy Elasticsearch:
 
 ```sh
 wget https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-0.90.7.deb
 sudo dpkg -i elasticsearch-0.90.7.deb
+```
+
+Instalujemy wtyczkę [Elasticsearch-Head](https://github.com/mobz/elasticsearch-head):
+
+```sh
+sudo /usr/share/elasticsearch/bin/plugin -install mobz/elasticsearch-head
 ```
 
 Skrypt: [tutaj](./scripts/elasticsearch.sh)
