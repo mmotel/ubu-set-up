@@ -143,7 +143,7 @@ sudo dpkg -i elasticsearch-0.90.7.deb
 
 Skrypt: [tutaj](./scripts/elasticsearch.sh)
 
-####Konfiguracja klastera oraz węzeła Elasticsearch'a
+#####Konfiguracja klastra oraz węzeła Elasticsearch'a
 
 ```sh
 sudo vim /etc/elasticsearch/elasticsearch.yml
