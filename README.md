@@ -141,7 +141,9 @@ wget https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearc
 sudo dpkg -i elasticsearch-0.90.7.deb
 ```
 
-Konfigurujemy klaster oraz węzeł Elasticsearch'a.
+Skrypt: [tutaj](./scripts/elasticsearch.sh)
+
+####Konfiguracja klastera oraz węzeła Elasticsearch'a
 
 ```sh
 sudo vim /etc/elasticsearch/elasticsearch.yml
