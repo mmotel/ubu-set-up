@@ -125,26 +125,25 @@ python agent.py >> [log_directory]/agent.log 2>1 &
 
 ###Elasticsearch
 
-Źródło: [wingdspur@github gist](https://gist.github.com/wingdspur/2026107)
-
-Instalujemy Open JDK 7:
+Tworzymy folder na Elasticsearch:
 
 ```sh
-sudo apt-get update
-sudo apt-get install openjdk-7-jre-headless -y
+cd ~
+mkdir elasticsearch
+cd elasticsearch
 ```
 
-Pobieramy i instalujemy Elasticsearch:
+Pobieramy i rozpakowujemy Elasticsearch:
 
 ```sh
-wget https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-0.90.7.deb
-sudo dpkg -i elasticsearch-0.90.7.deb
+wget https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-0.90.7.tar.gz
+tar -xvf elasticsearch-0.90.7.tar.gz
 ```
 
 Instalujemy wtyczkę [Elasticsearch-Head](https://github.com/mobz/elasticsearch-head):
 
 ```sh
-sudo /usr/share/elasticsearch/bin/plugin -install mobz/elasticsearch-head
+./elasticsearch-0.90.7/bin/plugin -install mobz/elasticsearch-head
 ```
 
 Skrypt: [tutaj](./scripts/elasticsearch.sh)
@@ -152,10 +151,10 @@ Skrypt: [tutaj](./scripts/elasticsearch.sh)
 #####Konfiguracja klastra oraz węzeła Elasticsearch'a
 
 ```sh
-sudo vim /etc/elasticsearch/elasticsearch.yml
+vim ~/elasticsearch/elasticsearch-0.90.7/config/elasticsearch.yml
 ```
 
-Odkomentowyjemy linie oraz ustawiamy nazwy klastra i węzła:
+Odkomentowyjemy linie, ustawiamy nazwy klastra i węzła oraz ilość shard'ów:
 
 ```yml
 (32)  cluster.name: yourESname
@@ -172,8 +171,7 @@ Odkomentowyjemy linie oraz ustawiamy nazwy klastra i węzła:
 Uruchamiamy skonfigurowanego Elasticsearch'a:
 
 ```sh
-sudo service elasticsearch stop
-sudo service elasticsearch start
+~/elasticsearch/elasticsearch-0.90.7/bin/elasticsearch -f
 ```
 
 Test: wchodzimy na stronę wtyczki Elasticsearch-Head
