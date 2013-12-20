@@ -163,7 +163,8 @@ Odkomentowyjemy linie, ustawiamy nazwy klastra i węzła oraz ilość shard'ów:
 
 (87)  node.max_local_storage_nodes: 1
 
-(105) index.number_of_shards: 1
+(114) index.number_of_shards: 1
+(115) index.number_of_replicas: 0
 
 (319) discovery.zen.ping.multicast.enabled: false
 ```
