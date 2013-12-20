@@ -1,5 +1,3 @@
-##*ubu-set-up* Instalacje
-
 ###Elasticsearch
 
 Tworzymy folder na Elasticsearch:

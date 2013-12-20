@@ -1,5 +1,3 @@
-##*ubu-set-up* Instalacje
-
 ###Java Runtime Environment
 
 Źródło: [Ubuntu-pomoc](http://www.ubuntu-pomoc.org/ubuntu-12-04-instalacja-oracle-java-runtime-jre-7/)

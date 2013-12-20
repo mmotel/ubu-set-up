@@ -1,5 +1,3 @@
-##*ubu-set-up* Instalacje
-
 ###Node.JS
 
 Źródło: [Joyent@github](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager#ubuntu-mint-elementary-os)

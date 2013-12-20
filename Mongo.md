@@ -1,5 +1,3 @@
-##*ubu-set-up* Instalacje
-
 ###MongoDB
 
 Źródło: [MongoDB docs](http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/)

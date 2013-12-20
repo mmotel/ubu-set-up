@@ -1,5 +1,3 @@
-##*ubu-set-up* Instalacje
-
 ###Podstawowe
 
 Na początku wykonujemy aktualizację listy pakietów:
