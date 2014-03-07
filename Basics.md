@@ -16,7 +16,7 @@ echo 'set nu' > ~/.vimrc
 Git
 
 ```sh
-sudo-apt-get install git
+sudo apt-get install git
 git config --global user.name "user-name"
 git config --global user.email "user-name@mail"
 ```
