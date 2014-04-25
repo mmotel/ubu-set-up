@@ -18,3 +18,7 @@ qmake-qt4
 make
 ```
 Skrypt: [tutaj](./scripts/xelatex-mgr/latex-set-up.sh)
+
+Czcionki: [tutaj](./scripts/xelatex-mgr/fonts.tar.gz)
+
+Szablon pracy magisterkiej: [wbzyl/xelatex-mgr](https://github.com/wbzyl/xelatex-mgr)
