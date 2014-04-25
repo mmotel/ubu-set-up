@@ -20,7 +20,7 @@
 
 [Jape homepage](http://www.cs.ox.ac.uk/people/bernard.sufrin/jape.html)
 
-###[XeLaTeX, TeXworks, xelatex-mgr](./Xelatex.sh)
+###[XeLaTeX, TeXworks, xelatex-mgr](./Xelatex.md)
 
 ##Konfiguracja
 
