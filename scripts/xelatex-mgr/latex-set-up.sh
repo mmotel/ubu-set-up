@@ -6,7 +6,7 @@ sudo apt-get install qt4-qmake
 #packages for texworks
 sudo apt-get install libhunspell-dev
 sudo apt-get install libpoppler-dev libpoppler-qt4-dev
-sduo apt-get install zlib1g-dev
+sudo apt-get install zlib1g-dev
 #download texworks sources
 svn checkout http://texworks.googlecode.com/svn/trunk/ texworks-read-only 
 cd texworks-read-only
