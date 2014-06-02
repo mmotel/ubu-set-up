@@ -10,6 +10,12 @@ sudo apt-get update
 sudo apt-get install nodejs
 ```
 
+Instalujemy Bowera:
+
+```sh
+sudo npm install bower -g
+```
+
 Dodatkowo instalujemy narzędzie [JSHint](http://www.jshint.com/):
 
 ```sh
