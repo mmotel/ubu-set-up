@@ -39,13 +39,13 @@ Guake terminal
 sudo apt-get install guake
 ```
 
-#Curl
+Curl
 
 ```sh
 sudo apt-get install curl
 ```
 
-#FileZilla
+FileZilla
 
 ```sh
 sudo add-apt-repository ppa:n-muench/programs-ppa
