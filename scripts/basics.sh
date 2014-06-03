@@ -24,3 +24,13 @@ sudo apt-get install xsensors
 #guake terminal
 
 sudo apt-get install guake
+
+#curl
+
+sudo apt-get install curl
+
+#filezilla
+
+sudo add-apt-repository ppa:n-muench/programs-ppa
+sudo apt-get update
+sudo apt-get install filezilla

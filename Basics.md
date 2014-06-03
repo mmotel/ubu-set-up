@@ -39,6 +39,20 @@ Guake terminal
 sudo apt-get install guake
 ```
 
+#Curl
+
+```sh
+sudo apt-get install curl
+```
+
+#FileZilla
+
+```sh
+sudo add-apt-repository ppa:n-muench/programs-ppa
+sudo apt-get update
+sudo apt-get install filezilla
+```
+
 Skrypt: [tutaj](./scripts/basics.sh)
 
 `*` przed uruchomieniem skryptu należy ustawić swój login oraz ares e-mail
